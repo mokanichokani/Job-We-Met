@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss"
-import Background from "three/examples/jsm/renderers/common/Background.js"
 
 const config = {
   darkMode: ["class"],
