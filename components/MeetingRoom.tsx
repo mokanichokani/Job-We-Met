@@ -2,6 +2,7 @@ import {  CallControls, CallParticipantsList, CallStatsButton, PaginatedGridLayo
 import React from 'react'
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
+import { ButtWhite } from './ButtWhite';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -67,6 +68,7 @@ const MeetingRoom = () => {
             </div>))}
           </DropdownMenuContent>
         </DropdownMenu>
+        <ButtWhite/>
       </div>
     </section>
   )
